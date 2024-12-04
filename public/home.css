@@ -1,0 +1,96 @@
+body {
+    background-color: #f4f4f4; /* Background color */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Padding */
+    background-color: white; /* Background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.header {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Vertically center align */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+h1 {
+    font-size: 2rem; /* Header font size */
+    color: #333; /* Header color */
+}
+
+.auth-links {
+    display: flex; /* Use flexbox layout */
+    gap: 15px; /* Space between links */
+}
+
+.login, .logout {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.login:hover, .logout:hover {
+    color: #0056b3; /* Color change on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.content {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between columns */
+    margin-top: 20px; /* Space above content */
+}
+
+.sidebar, .right-sidebar {
+    flex: 1; /* Each sidebar takes equal space */
+    background-color: #f8f8f8; /* Background color */
+    padding: 20px; /* Padding */
+    margin: 0 10px; /* Left and right margin */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.main {
+    flex: 2; /* Main content takes more space */
+    padding: 20px; /* Padding */
+}
+
+.photo {
+    border: 1px solid #ddd; /* Photo border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding */
+    background-color: #fff; /* Photo background color */
+    margin-bottom: 20px; /* Space between photos */
+}
+
+.photo img {
+    max-width: 100%; /* Responsive photo */
+    border-radius: 8px; /* Rounded photo corners */
+}
+
+.actions {
+    margin-top: 10px; /* Space above action buttons */
+}
+
+button {
+    background-color: #28a745; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+button:hover {
+    background-color: #218838; /* Button color on hover */
+}
+
+p {
+    margin-top: 10px; /* Space above paragraphs */
+    text-align: center; /* Center align text */
+    color: #666; /* Paragraph text color */
+}
