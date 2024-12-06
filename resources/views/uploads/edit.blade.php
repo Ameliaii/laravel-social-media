@@ -7,19 +7,19 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #fff8e1; /* 浅黄色背景 */
-            color: #856404; /* 深黄色文字 */
+            background-color: #fff8e1; 
+            color: #856404; 
             margin: 0;
             padding: 20px;
         }
 
         h1 {
             text-align: center;
-            color: #d4a017; /* 明黄色标题 */
+            color: #d4a017; 
         }
 
         form {
-            background-color: #fff3cd; /* 表单背景色 */
+            background-color: #fff3cd; /
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -37,14 +37,14 @@
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
-            border: 1px solid #ffd966; /* 浅黄色边框 */
+            border: 1px solid #ffd966; 
             border-radius: 5px;
             box-sizing: border-box;
         }
 
         input[type="submit"] {
-            background-color: #ffc107; /* 按钮背景 */
-            color: #856404; /* 按钮文字颜色 */
+            background-color: #ffc107; 
+            color: #856404; 
             border: none;
             padding: 10px 15px;
             border-radius: 5px;
@@ -53,23 +53,23 @@
         }
 
         input[type="submit"]:hover {
-            background-color: #ffca2c; /* 按钮悬停颜色 */
+            background-color: #ffca2c; 
         }
 
         a {
             display: inline-block;
             margin-top: 20px;
-            color: #856404; /* 深黄色链接 */
+            color: #856404; 
             text-decoration: none;
             font-weight: bold;
         }
 
         a:hover {
-            color: #d4a017; /* 链接悬停颜色 */
+            color: #d4a017; 
         }
 
         div {
-            background-color: #fff3cd; /* 信息块背景 */
+            background-color: #fff3cd; 
             padding: 15px;
             border-radius: 8px;
             margin: 20px auto;
