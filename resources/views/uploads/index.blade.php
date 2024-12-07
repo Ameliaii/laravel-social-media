@@ -116,6 +116,12 @@
 </head>
 
 <body>
+     @if(session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @endif
+    
     <h1>{{ auth()->user()->is_super ? 'All Photos (Super Account)' : 'My Photos' }}</h1>
 
  
